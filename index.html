@@ -20,17 +20,17 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#top">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Solution</a>
+                    <a class="nav-link" href="#solution">Solution</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about-us">About Us</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -57,25 +57,25 @@
 
     </section>
 
-    <section id="services">
+    <section id="solution">
         <div class="container text-center">
           <h5 class="what">HOW TO ACHIEVE QUALITY EDUCATION</h5>
             <div class="row text-center">
-                <div class="col-md-4" services>
+                <div class="col-md-4" solution>
                     <img src="images/education2.jpg" class="education-img">
                     <h4>PROVIDING ADEQUATE FUNDING FOR EDUCATION</h4>
                     <p>Children living in poverty face many barriers to accessing an education. Only 20% of aid for education goes to low-income countries, according to the Global Partnership for Education (GPE). But it costs an average of $1.25 a day per child in developing countries to provide 13 years of education. </p>
 
                 </div>
 
-                <div class="col-md-4" services>
+                <div class="col-md-4" solution>
                   <img src="images/education2.jpg" class="education-img">
                   <h4>HAVING TRAINED TEACHER</h4>
                   <p>Teacher effectiveness has been found to be the most important predictor of student learning. There aren't enough teachers to achieve universal primary or secondary education, and many of the teachers that are currently working are untrained. As a result, children aren’t receiving a proper education.  </p>
 
               </div>
 
-              <div class="col-md-4" services>
+              <div class="col-md-4" solution>
                 <img src="images/education2.jpg" class="education-img">
                 <h4>PROVIDING CONDUCIVE CLASSROOM</h4>
                 <p>A child cannot learn without the right environment. Children in many countries in sub-Saharan Africa are often squeezed into overcrowded classrooms, classrooms that are falling apart, or are learning outside. They also lack textbooks, school supplies, and other tools they need to excel. </p>
@@ -112,8 +112,36 @@
 
     
     <section id="footer">
-      <img src="images/wave.png" class="footer-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/logo.png" alt="Logo">
+            <p>Education is the best legacy you can give to a child. </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</p>
+            <p><i class="fas fa-phone-alt"></i>+234 70222222</p>
+            <p><i class="fas fa-envelope-o-alt"></i>abc@gmail.com</p>
+          </div>
+
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+            
+          </div>
+
+        </div>
+
+      </div>
     </section>
+
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     
 </body>
 </html>

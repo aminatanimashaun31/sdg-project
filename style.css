@@ -52,7 +52,7 @@ body{
     width: 100%;
 }
 
-#services{
+#solution{
     padding: 80px 0;
 }
 .education-img{
@@ -60,11 +60,11 @@ body{
     margin-top: 20px;
 }
 
-.services{
+.solution{
     padding: 20px;
 }
 
-.services h4{
+.solution h4{
     padding: 5%;
     margin-top: 25px;   
 }
@@ -92,7 +92,7 @@ body{
 
 }
 
-#services .btn-primary{
+#solution .btn-primary{
     box-shadow: none;
     padding: 8px 25px;
     border: none;
@@ -136,6 +136,43 @@ body{
 .footer-img{
     width: 100%;
 }
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #15a7ba, #5f1782);
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px; 
+    background-image: linear-gradient(to right, #15a7ba, #5f1782);
+}
+
+   
+
+
 
 
 
